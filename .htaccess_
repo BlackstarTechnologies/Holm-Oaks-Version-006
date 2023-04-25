@@ -1,0 +1,9 @@
+<VirtualHost _default_:80>
+    ServerAlias *
+    DocumentRoot "/opt/bitnami/projects/Holm-Oaks-Version-006"
+    <Directory "/opt/bitnami/projects/Holm-Oaks-Version-006">
+        Require all granted
+    </Directory>
+    ProxyPass / http://localhost:8080/
+    ProxyPassReverse / http://localhost:8080/
+</VirtualHost>
