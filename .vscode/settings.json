@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "files.refactoring.autoSave": false,
+    "workbench.editor.closeOnFileDelete": true
+}
